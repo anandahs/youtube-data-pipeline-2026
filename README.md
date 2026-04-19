@@ -31,6 +31,16 @@ This repository contains a YouTube data pipeline that moves raw country-specific
 - `iam_permissions/step_functions/`
   - `stepfunctions_graph.png` — final Step Functions execution diagram
 
+## Architecture Diagrams
+
+### Pipeline architecture
+
+![Pipeline architecture](pipeline/YouTube%20Trending%20Data%20Pipeline.png)
+
+### Step Functions execution
+
+![Step Functions execution](iam_permissions/step_functions/stepfunctions_graph.png)
+
 ## Key Buckets and Paths
 
 - Bronze statistics: `s3://yt-data-pipeline-bronze-us-east-1a-dev/youtube/raw_statistics`
